@@ -1,0 +1,364 @@
+/* _________Local Styles___________ */
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.container {
+  padding: 0 5%;
+}
+.clear-fixed {
+  clear: both;
+}
+
+/* __________Home Styles___________ */
+
+.home {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/drew-coffman-1872.jpg) no-repeat;
+  background-size: cover;
+  background-position: 100%;
+}
+
+.navbar {
+  background-color: #353330;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+.navbar img {
+  width: 170px;
+}
+
+.navbar ul {
+  font-size: 20px;
+  float: right;
+  margin-top: 7px;
+  margin-right: 2%;
+}
+
+.navbar ul li {
+  float: left;
+  list-style: none;
+  padding: 10px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.home-content {
+  text-align: center;
+  padding-top: 250px;
+  color: white;
+}
+
+.home-content h3 {
+  margin: 5px;
+  font-size: 22px;
+}
+
+.home-content h1 {
+  font-size: 70px;
+  margin: 20px;
+}
+
+.home-content p {
+  margin: 30px 450px;
+  font-size: 26px;
+  line-height: 1.6;
+}
+
+button {
+  padding: 18px 28px;
+  font-size: 16px;
+  color: #fff;
+  width: 150px;
+  background-color: transparent;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.learn-btn {
+  background-color: #66b4ce;
+  border: none;
+  margin-right: 5px;
+}
+
+.contact-btn {
+  border: 1px solid #fff;
+  margin-left: 5px;
+}
+
+.home .toggle {
+  position: fixed;
+  top: 200px;
+  right: 0;
+  width: 45px;
+  height: 65px;
+}
+.toggle img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* _____________About Styles___________ */
+
+.about {
+  padding: 8% 5%;
+}
+
+.about-img {
+  float: left;
+  width: 47%;
+}
+.about .about-img img {
+  width: 100%;
+}
+
+.about-content {
+  float: right;
+  width: 47%;
+  margin-top: 50px;
+}
+
+.about-content h2 {
+  color: #303030;
+  font-size: 32px;
+  padding: 20px;
+}
+
+.about-content p {
+  color: #686868;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.about-content ul {
+  list-style: none;
+  padding: 20px;
+}
+
+.about-content ul li {
+  padding: 20px;
+  font-size: 16px;
+  color: #686868;
+  position: relative;
+  margin-left: 50px;
+}
+
+.about-content ul li img {
+  position: absolute;
+  padding: 5px;
+  border: 1px solid #999;
+  border-radius: 50%;
+  left: -55px;
+  top: 4px;
+}
+
+/* ____________Location Styles____________ */
+
+.location {
+  background-color: #f8f8f8;
+  padding: 8% 5%;
+}
+
+.location-content {
+  width: 45%;
+  float: left;
+  margin-top: 80px;
+}
+
+.location-content h2 {
+  color: #303030;
+  font-size: 32px;
+  padding: 20px;
+}
+
+.location-content p {
+  color: #686868;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.location-img {
+  width: 45%;
+  float: right;
+}
+
+.location-img img {
+  width: 100%;
+}
+
+/* _____________Gallery Styles_____________ */
+
+.gallery {
+  text-align: center;
+  padding: 8% 5%;
+}
+
+.gallery h1 {
+  color: #303030;
+  font-size: 36px;
+  padding: 10px;
+}
+
+.gallery p {
+  color: #686868;
+  padding: 40px;
+  font-size: 17px;
+  line-height: 1.3;
+}
+
+.gallery-card {
+  width: 30%;
+  float: left;
+  margin-left: 30px;
+}
+
+.gallery-card img {
+  width: 100%;
+}
+
+.gallery-card h2 {
+  color: #303030;
+  font-size: 22px;
+  padding: 10px;
+}
+
+/* _________________Contact_________________ */
+
+.contact {
+  background-color: #f8f8f8;
+  padding: 8% 5%;
+}
+
+.contact-content {
+  width: 45%;
+  float: left;
+  margin-top: 20px;
+}
+
+.contact-content h2 {
+  color: #303030;
+  font-size: 32px;
+  padding: 20px;
+}
+
+.contact-content p {
+  color: #686868;
+  padding: 20px 0;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.contact-content ul {
+  list-style: none;
+  padding: 0 20px;
+}
+
+.contact-content ul li {
+  padding: 20px;
+  font-size: 16px;
+  color: #686868;
+  position: relative;
+  margin-left: 5px;
+}
+
+.contact-content ul li img {
+  position: absolute;
+  padding: 5px;
+  background-color: #8f7854;
+  border-radius: 50%;
+  left: -30px;
+  top: 10px;
+}
+
+.contact-img {
+  width: 45%;
+  float: right;
+}
+
+.contact-img img {
+  width: 100%;
+}
+
+/* _________Footer Styles____________- */
+
+.footer {
+  background-color: #403d38;
+  padding: 2% 5%;
+}
+
+.footer-content {
+  float: left;
+  width: 25%;
+}
+
+.footer-content h3 {
+  color: #fff;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.footer-content p {
+  color: #969696;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.footer-content ul {
+  list-style: none;
+  padding: 0 20px;
+}
+
+.footer-content ul li {
+  padding: 15px;
+  font-size: 16px;
+  color: #969696;
+  position: relative;
+  margin-left: 5px;
+  border-bottom: 0.1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer-content ul li:last-child {
+  border: none;
+}
+
+.footer-content ul li img {
+  position: absolute;
+  padding: 5px;
+  color: #8f7854;
+  border-radius: 50%;
+  left: -15px;
+  top: 10px;
+}
+
+.footer-copyright {
+  text-align: center;
+  background-color: #353330;
+  padding: 3% 10%;
+}
+
+.footer-copyright p {
+  color: #777;
+  padding: 20px;
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.footer-copyright div img {
+  background-color: #484540;
+  border-radius: 50%;
+  margin: 2px;
+}
